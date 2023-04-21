@@ -10,9 +10,7 @@ Uses [the Color API](https://www.thecolorapi.com/) to generate color schemes bas
 - [My Process](#my-process)
   - [Built with](#built-with)
 - [Screenshots](#screenshots)
-  - [Desktop](#desktop)
-  - [Mobile](#mobile)
-- [Status: work-in-progress](#status)
+- [Status](#status)
 - [Connect](#connect)
 
 ## Overview 
@@ -32,17 +30,20 @@ This my solution to the solo project for Module 9 of [Scrimba.com's Front-end De
 
 ## My Process
 
+For this project, I started with a basic layout of the page elements, added functionality with JavaScript, and then styled the page according to the style guide. 
+
 ### Built with
 
 - HTML
 - CSS
 - JavaScript
+- REST API
 
 ## Screenshots
 
-### Desktop
+![color scheme generator with a horizontal options laid out from left to right: seed color, mode choice (e.g., monochrome), and 'Get color scheme' button](screenshot1.png)
 
-### Mobile
+!['Analogic' color scheme generated based on a red sed color dipslayed below the generator input options](screenshot2.png)
 
 ## Status 
 
