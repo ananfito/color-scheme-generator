@@ -1,4 +1,54 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+form > select, option, button {
+    font-family: inherit;
+    border: 1px solid #D1D5DB;
+    background-color: #FFFFFF;
+}
+
+form > input {
+    width: 61px;
+    height: 42px;
+}
+
+form > select {
+    width: 312px;
+    height: 42px;
+    font-family: inherit;
+    appearance: none;
+}
+
+form > button {
+    width: 123px;
+    height: 42px;
+}
+
+.color-scheme-results {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.color-scheme-results img {
+    width: 100%;
+    height: 21.875em;
 }

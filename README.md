@@ -28,7 +28,7 @@ This my solution to the solo project for Module 9 of [Scrimba.com's Front-end De
 
 ### Project Resources 
 - [Figma file](https://www.figma.com/file/twasy8Bca4hW7gunLFSLoY/Color-Scheme-Generator?node-id=2-1155)
-- [API Doccumentation](https://www.thecolorapi.com/docs#schemes)
+- [The Color API Doccumentation](https://www.thecolorapi.com/docs#schemes)
 
 ## My Process
 

@@ -1,9 +1,58 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
         <link rel="stylesheet" href="index.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+        <title>CoGen: Color Scheme Generator</title>
     </head>
     <body>
-        <h1>index.html</h1>
+        <div class="container">
+            <h1>CoGen</h1>
+            <p>Select a color and generate a color scheme.</p>
+            <form id="color-selection-form" action="">
+                <input type="color" name="seed-color" id="seed-color-input">
+                <select name="color-scheme" id="color-scheme-select">
+                    <option value="">--Please select a color scheme--</option>
+                    <option value="analogic">Analogic</option>
+                    <option value="analogic-complement">Analogic Complement</option>
+                    <option value="complement">Complement</option>
+                    <option value="monochrome">Monochrome</option>
+                    <option value="monochrome-dark">Monochrome Dark</option>
+                    <option value="monochrome-light">Monochrome Light</option>
+                    <option value="quad">Quad</option>
+                    <option value="triad">Triad</option>
+                </select>
+                <button id="get-color-scheme-btn">Get color scheme</button>
+            </form>
+            <div class="color-scheme-results" id="color-scheme-results">
+                <div>
+                    <img src="https://www.thecolorapi.com/id?format=svg&named=false&hex=58B890">
+                    <p>#58B890</p>
+                </div>
+            
+                <div>
+                    <img src="https://www.thecolorapi.com/id?format=svg&named=false&hex=5ABBAF">
+                    <p>#5ABBAF</p>
+                </div>
+            
+                <div>
+                    <img src="https://www.thecolorapi.com/id?format=svg&named=false&hex=5DADBE">
+                    <p>#5DADBE</p>
+                </div>
+            
+                <div>
+                    <img src="https://www.thecolorapi.com/id?format=svg&named=false&hex=5F92C0">
+                    <p>#5F92C0</p>
+                </div> 
+            
+                <div>
+                    <img src="https://www.thecolorapi.com/id?format=svg&named=false&hex=6277C3">
+                    <p>#6277C3</p>
+                </div>
+            </div>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>
