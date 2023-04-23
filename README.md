@@ -43,7 +43,7 @@ For this project, I started with a basic layout of the page elements, added func
 
 ![color scheme generator with a horizontal options laid out from left to right: seed color, mode choice (e.g., monochrome), and 'Get color scheme' button](screenshot1.png)
 
-!['Analogic' color scheme generated based on a red sed color dipslayed below the generator input options](screenshot2.png)
+!['Analogic' color scheme generated based on a red seed color displayed below the generator input options](screenshot2.png)
 
 ## Status 
 
