@@ -47,7 +47,7 @@ For this project, I started with a basic layout of the page elements, added func
 
 ## Status 
 
-Work-in-progress.
+The demo version of this project can be viewed at: https://ananfito.github.io/color-scheme-generator/.
 
 ## Connect
 
